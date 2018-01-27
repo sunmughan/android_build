@@ -692,6 +692,22 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   script.SetPermissionsRecursive("/tmp/install", 0, 0, 0755, 0644, None, None)
   script.SetPermissionsRecursive("/tmp/install/bin", 0, 0, 0755, 0755, None, None)
 
+  script.Print("                                              ")
+  script.Print("**********************************************")           
+  script.Print("         ###  Xhausted OS Project ###         ") 
+  script.Print("                                              ")   
+  script.Print("    ##     ## ##     ##  #######   ######     ")
+  script.Print("     ##   ##  ##     ## ##     ## ##    ##    ")
+  script.Print("      ## ##   ##     ## ##     ## ##          ")
+  script.Print("       ###    ######### ##     ##  ######     ")
+  script.Print("      ## ##   ##     ## ##     ##       ##    ")
+  script.Print("     ##   ##  ##     ## ##     ## ##    ##    ")
+  script.Print("    ##     ## ##     ##  #######   ######     ")
+  script.Print("                                              ")  
+  script.Print(" > [ XPower ][ XPerformance ][ XStability ] < ")
+  script.Print("**********************************************")           
+  script.Print("                                              ")     
+  
   if OPTIONS.backuptool:
     script.Mount("/system")
     script.RunBackup("backup")
