@@ -692,6 +692,20 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   script.SetPermissionsRecursive("/tmp/install", 0, 0, 0755, 0644, None, None)
   script.SetPermissionsRecursive("/tmp/install/bin", 0, 0, 0755, 0755, None, None)
 
+  script.Print("                                              ")
+  script.Print("**********************************************")           
+  script.Print(" # Presenting You: Android Xhausted Project # ") 
+  script.Print(" ____  ___  ___ ___   ________      _________ ")
+  script.Print(" \   \/  / /   |   \  \_____  \    /   _____/ ")
+  script.Print("  \     / /   ___   \  /   |   \   \_____  \  ")
+  script.Print("  /     \ \         / /    |    \  /        \ ")
+  script.Print(" /___/\  \ \___|_  /  \_______  / /_______  / ")
+  script.Print("       \_/       \/           \/          \/  ")
+  script.Print("                                              ")  
+  script.Print(" > [ XPower ][ XPerformance ][ XStability ] < ")
+  script.Print("**********************************************")           
+  script.Print("                                              ")
+  
   if OPTIONS.backuptool:
     script.Mount("/system")
     script.RunBackup("backup")
